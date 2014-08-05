@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Radio Air International</string>
+    <string name="version">1.1.3</string>
+    <string name="is_display_ad">false</string>
+    <string name="admob_publisher_id"></string>
+ <!-- Enter your AdMob Publisher ID -->
+    <string name="lastfm_api_key">c96ac279db53e229b7011c2bc6936913</string>
+ <!-- Enter your Last.fm API Key -->
+    <string name="facebook_id">RadioAirFeel</string>
+    <string name="twitter_id">it_radioair</string>
+    
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open Navigation Drawer</string>
+
+    <string-array name="station_names">
+        <item>AIR FEEL 1 SHOUTCAST</item>
+        <item>AIR FEEL 2 ICECAST</item>
+    </string-array>
+    <string-array name="station_urls">
+        <item>http://188.138.121.94:8036/</item>
+        <item>http://205.164.36.5:80</item>
+
+        <!--
+             Stations to change value to 
+        
+        			http://206.217.201.136:8040 rap
+        			http://85.25.198.68:13100 rap
+        			http://87.64.35.90:8000 rap
+        			http://50.7.77.114:8314 reggae
+        			http://188.138.121.94:8036 folk
+        			http://205.164.36.5:80 chill
+        			
+        			default:
+        			http://146.185.18.251:8090
+        			http://87.117.228.94:8038
+        -->
+    </string-array>
+    <string-array name="station_types">
+        <item>mp3</item>
+        <item>mp3</item>
+    </string-array>
+
+    <string name="menu_radio">Now Playing</string>
+    <string name="menu_stations">Stations</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_facebook">Facebook</string>
+    <string name="menu_twitter">Twitter</string>
+    <string name="menu_about">About</string>
+    <string name="menu_exit">Exit</string>
+    
+    <string-array name = "activities">
+        <item>Now Playing</item>
+        <item>Stations</item>
+        <item>Chat</item>
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>About</item>
+        <item>Exit</item>
+    </string-array>
+
+</resources>
